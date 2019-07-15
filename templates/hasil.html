@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hasil</title>
+    <style>
+        body {
+            background-image: url("http://i.imgur.com/O7ZWigt.png")
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h2>    
+        {{nama1}} <img src="{{gambar1}}" alt="{{gambar1}}" width='150'>
+        {{nama2}} <img src="{{gambar2}}" alt="{{gambar2}}" width='150'>  
+    </h2>
+   <br>
+    <h2>
+        <img src="{{graph}}" alt="{{graph}}" width="1000px">
+    </h2>
+    <br>  
+    <h2>
+        {{proba}}% {{winner}} Wins !
+        <br>   
+    </h2>
+    <br>  
+        <form action="http://localhost:5000/">
+            <p> 
+            <input type="submit" value="Kembali">
+            </p>
+        </form>
+    </center>
+</body>
+</html>
